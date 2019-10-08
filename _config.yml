@@ -13,9 +13,9 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://hexo-note
 root: /
-permalink: :year/:month/:day/:title/
+permalink: /404
 permalink_defaults:
 
 # Directory
@@ -79,5 +79,5 @@ theme: 3-hexo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo:  git@github.com:BrucePhoebus/BrucePhoebus.github.io.git
+  repo:  git@github.com:BrucePhoebus/hexo-note.git
   branch: master
