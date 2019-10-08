@@ -7,13 +7,13 @@ title: Hexo
 subtitle:
 description:
 keywords:
-author: John Doe
+author: Phoebus
 language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://hexo-note
+url: https://brucephoebus.github.io
 root: /
 permalink: /404
 permalink_defaults:
@@ -79,5 +79,7 @@ theme: 3-hexo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo:  git@github.com:BrucePhoebus/hexo-note.git
+  repo:  git@github.com:BrucePhoebus/BrucePhoebus.github.io.git
   branch: master
+
+canvas_nest: true
